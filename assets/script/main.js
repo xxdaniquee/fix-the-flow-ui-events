@@ -40,3 +40,14 @@ and.addEventListener('animationed', growHandler)
 function growHandler() {
   and.classList.toggle('grow')
 }
+
+// Development button
+
+let development = document.querySelector("a:nth-of-type(4)")
+
+development.addEventListener('mouseover', colorHandler)
+development.addEventListener('animationed', colorHandler)
+
+function colorHandler() {
+  development.classList.toggle('color')
+}
