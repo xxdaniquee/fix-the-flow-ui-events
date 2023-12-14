@@ -236,3 +236,33 @@ a:nth-of-type(4) {
     background: green;
   }
 }
+
+/* Sprint 5 button */
+
+a:nth-of-type(5) {
+  position: relative;
+  background: var(--highlight-secondary);
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;  
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -51,3 +51,14 @@ development.addEventListener('animationed', colorHandler)
 function colorHandler() {
   development.classList.toggle('color')
 }
+
+// Development button
+
+let sprint = document.querySelector("a:nth-of-type(5)")
+
+sprint.addEventListener('mouseover', fadeInHandler)
+sprint.addEventListener('animationed', fadeInHandler)
+
+function fadeInHandler() {
+  sprint.classList.toggle('fade-in')
+}
