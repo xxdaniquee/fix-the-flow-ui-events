@@ -65,11 +65,9 @@ function fadeInHandler() {
 
 // fix button
 
-let fix = document.querySelector("a:nth-of-type(6)")
+let the = document.querySelector("a:nth-of-type(7)")
 
-fix.addEventListener('click', shakeHandler)
-fix.addEventListener('animationed', shakeHandler)
-
-function shakeHandler() {
-  fix.classList.toggle('shake')
+the.onclick = function() {
+  the.style.display = 'none';
 }
+
