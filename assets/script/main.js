@@ -29,3 +29,14 @@ design.addEventListener('animationed', rotateHandler)
 function rotateHandler() {
   design.classList.toggle('rotate')
 }
+
+// & button
+
+let and = document.querySelector("a:nth-of-type(3)")
+
+and.addEventListener('click', growHandler)
+and.addEventListener('animationed', growHandler)
+
+function growHandler() {
+  and.classList.toggle('grow')
+}
