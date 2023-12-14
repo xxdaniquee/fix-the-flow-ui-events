@@ -130,7 +130,7 @@ a:nth-of-type(2) {
 
 .rotate {
   animation-name: rotate;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-timing-function: linear;
   animation-iteration-count: 1;
 }
@@ -156,7 +156,7 @@ a:nth-of-type(3) {
 
 .grow {
   animation-name: grow;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-timing-function: linear;
   animation-iteration-count: 1;
 }
@@ -314,32 +314,4 @@ a:nth-of-type(7) {
   border-color: var(--secondary);
 }
 
-.gone {
-  animation-name: gone;
-  animation-duration: 0.2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% {
-    transform: translateX(0);
-  }
-
-  25% {
-    transform: translateX(5px);
-  }
-
-  50% {
-    transform: translateX(-5px);  
-  }
-
-  75% {
-    transform: translateX(5px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
 

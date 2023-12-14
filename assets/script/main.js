@@ -52,7 +52,7 @@ function colorHandler() {
   development.classList.toggle('color')
 }
 
-// Development button
+// Sprint 5 button
 
 let sprint = document.querySelector("a:nth-of-type(5)")
 
@@ -65,9 +65,22 @@ function fadeInHandler() {
 
 // fix button
 
-let the = document.querySelector("a:nth-of-type(7)")
+let fix = document.querySelector("a:nth-of-type(6)")
 
-the.onclick = function() {
-  the.style.display = 'none';
+fix.addEventListener('click', shakeHandler)
+fix.addEventListener('animationed', shakeHandler)
+
+function shakeHandler() {
+  fix.classList.toggle('shake')
 }
 
+// the button
+
+let the = document.querySelector("a:nth-of-type(7)")
+
+the.addEventListener('click', alertBtn)
+the.addEventListener('animationed', alertBtn)
+
+function alertBtn() {
+  alert("Hoi");
+}
