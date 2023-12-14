@@ -62,3 +62,14 @@ sprint.addEventListener('animationed', fadeInHandler)
 function fadeInHandler() {
   sprint.classList.toggle('fade-in')
 }
+
+// fix button
+
+let fix = document.querySelector("a:nth-of-type(6)")
+
+fix.addEventListener('click', shakeHandler)
+fix.addEventListener('animationed', shakeHandler)
+
+function shakeHandler() {
+  fix.classList.toggle('shake')
+}
