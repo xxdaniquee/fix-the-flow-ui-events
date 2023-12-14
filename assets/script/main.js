@@ -19,3 +19,13 @@ function fadeUpHandler() {
   frontend.classList.toggle('fade-up')
 }
 
+// Design button
+
+let design = document.querySelector("a:nth-of-type(2)")
+
+design.addEventListener('click', rotateHandler)
+design.addEventListener('animationed', rotateHandler)
+
+function rotateHandler() {
+  design.classList.toggle('rotate')
+}
