@@ -327,3 +327,34 @@ a:nth-of-type(8) {
   padding: 1rem 10rem 1rem 1rem;
   transition: 2s ease-in-out;
 }
+
+/* user button */
+
+a:nth-of-type(9) {
+  position: relative;
+  background: var(--highlight-secondary);
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.pulse {
+  animation-name: pulse;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1x;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1.5;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

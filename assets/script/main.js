@@ -89,6 +89,17 @@ function alertBtn() {
 
 let flow = document.querySelector("a:nth-of-type(8)")
 
-flow.addEventListener("mouseover", function () {
+flow.addEventListener("click", function () {
   flow.classList.toggle("changeSize");
 })
+
+// User button
+
+let user = document.querySelector("a:nth-of-type(9)")
+
+user.addEventListener('click', pulseHandler)
+user.addEventListener('animationed', pulseHandler)
+
+function pulseHandler() {
+  user.classList.toggle('pulse')
+}
