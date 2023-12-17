@@ -84,3 +84,11 @@ the.addEventListener('animationed', alertBtn)
 function alertBtn() {
   alert("Hoi");
 }
+
+// Flow button
+
+let flow = document.querySelector("a:nth-of-type(8)")
+
+flow.addEventListener("mouseover", function () {
+  flow.classList.toggle("changeSize");
+})

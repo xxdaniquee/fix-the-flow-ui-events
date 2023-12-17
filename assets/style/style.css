@@ -314,4 +314,16 @@ a:nth-of-type(7) {
   border-color: var(--secondary);
 }
 
+/* Flow button */
 
+a:nth-of-type(8) {
+  position: relative;
+  background: var(--highlight-secondary);
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.changeSize {
+  padding: 1rem 10rem 1rem 1rem;
+  transition: 2s ease-in-out;
+}
