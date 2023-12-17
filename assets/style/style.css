@@ -149,24 +149,14 @@ a:nth-of-type(3) {
   border-color: var(--secondary);
 }
 
-.grow {
-  animation-name: grow;
+.fall {
+  animation-name: fall;
   animation-duration: 0.5s;
   animation-timing-function: linear;
-  animation-iteration-count: 1;
+  animation-iteration-count: 1x;
+  margin-top: 30rem;
 }
 
-@keyframes grow {
-  0% {
-    font-size: 2rem;
-  }
-  50% {
-    font-size: 2.5rem;  
-  }
-  100% {
-    font-size: 2rem;
-  }
-}
 
 /* Development button */
 
@@ -327,11 +317,40 @@ a:nth-of-type(9) {
     transform: scale(1);
   }
   50% {
-    opacity: 1.5;
+    opacity: 0.5;
     transform: scale(1.5);
   }
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+/* Interface button */
+
+a:nth-of-type(10) {
+  position: relative;
+  background: var(--highlight-secondary);
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.fade-out {
+  animation-name: fade-out;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5; 
+
+  }
+  100% {
+    opacity: 0;
   }
 }

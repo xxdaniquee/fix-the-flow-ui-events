@@ -34,11 +34,11 @@ function rotateHandler() {
 
 let and = document.querySelector("a:nth-of-type(3)")
 
-and.addEventListener('click', growHandler)
-and.addEventListener('animationend', growHandler)
+and.addEventListener('mouseover', fallHandler)
+and.addEventListener('animationend', fallHandler)
 
-function growHandler() {
-  and.classList.toggle('grow')
+function fallHandler() {
+  and.classList.toggle('fall')
 }
 
 // Development button
@@ -102,4 +102,15 @@ user.addEventListener('animationend', pulseHandler)
 
 function pulseHandler() {
   user.classList.toggle('pulse')
+}
+
+// Interface button
+
+let interface = document.querySelector("a:nth-of-type(10)")
+
+interface.addEventListener('click', fadeOutHandler)
+interface.addEventListener('animationend', fadeOutHandler)
+
+function fadeOutHandler() {
+  interface.classList.toggle('fade-out')
 }
