@@ -1,15 +1,22 @@
-> _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Fix the flow | UI events
+Verschillende UI events uitproberen.
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+## Inhoudsopgave
+
+  * [Beschrijving](#beschrijving)
+  * [Experimenten](#experimenten)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Op deze website staan buttons die allemaal verschillende animaties hebben. <br>
+> [Link naar de site](https://xxdaniquee.github.io/fix-the-flow-ui-events/)
+<img width="1436" alt="Screenshot 2023-12-17 at 19 57 42" src="https://github.com/xxdaniquee/fix-the-flow-ui-events/assets/128936068/a7c19469-1589-4982-b132-0314b1f73af4">
 
-## Experimenten
-<!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
-<!-- Voeg een mooie poster visual toe 📸 per experiment -->
+### Wiki
+In de wiki staat beschreven wat ik heb gedaan om tot dit eindresultaat te komen, uitleg over de gebruikte code en schetsen.
+> [Wiki](https://github.com/xxdaniquee/fix-the-flow-ui-events/wiki)
+
 
 ## Licentie
 
